@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveWithObject:Button = findViewById(R.id.btn_move_activity_object)
         btnMoveWithObject.setOnClickListener(this)
+
+        val btnDialPhone:Button = findViewById(R.id.btn_dial_number)
+        btnDialPhone.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {

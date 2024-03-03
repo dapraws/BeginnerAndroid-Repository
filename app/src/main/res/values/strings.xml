@@ -3,6 +3,8 @@
 
     <string name="articles_name">Nama Artikel</string>
     <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
     <string-array name="data_name">
         <item>10 Tempat Wisata Terbaik di Dunia</item>
         <item>Cara Memulai Bisnis Online dari Nol</item>

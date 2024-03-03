@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
 class ListArticleAdapter(private val listArticle: ArrayList<Article>) : RecyclerView.Adapter<ListArticleAdapter.ListViewHolder>(){
     private lateinit var onItemClickCallback: OnItemClickCallback
@@ -24,7 +25,9 @@ class ListArticleAdapter(private val listArticle: ArrayList<Article>) : Recycler
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, description, photo) = listArticle[position]
-        holder.imgPhoto.setImageResource(photo)
+        Glide.with(holder.itemView.context)
+            .load(photo).circleCrop()
+            .into(holder.imgPhoto)
         holder.tvName.text = name
         holder.tvDescription.text = description
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listArticle[holder.adapterPosition]) }

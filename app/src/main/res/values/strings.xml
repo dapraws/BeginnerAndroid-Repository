@@ -28,14 +28,14 @@
         <item>Strategi praktis untuk mengatasi dan mengelola stres dalam kehidupan sehari-hari.</item>
     </string-array>
     <integer-array name="data_photo">
-        <item>@drawable/wisata_1</item>
+        <item>@drawable/wisata</item>
         <item>@drawable/bisnis_online</item>
         <item>@drawable/olahraga</item>
         <item>@drawable/produktivitas</item>
         <item>@drawable/kecantikan_korea</item>
         <item>@drawable/backpacking</item>
         <item>@drawable/makanan_sehat</item>
-        <item>@drawable/film_terbaik</item>
+        <item>@drawable/filmterbaik</item>
         <item>@drawable/blockchain</item>
         <item>@drawable/mengatasi_stres</item>
     </integer-array>

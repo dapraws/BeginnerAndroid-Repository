@@ -19,7 +19,7 @@
 
         <ImageView
             android:id="@+id/img_item_photo"
-            android:layout_width="70dp"
+            android:layout_width="120dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
             card_view:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +39,7 @@
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
             card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
-            tools:text="@string/article_name" />
+            tools:text="@string/articles_name" />
 
         <TextView
             android:id="@+id/tv_item_description"

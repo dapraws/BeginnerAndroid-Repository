@@ -3,8 +3,7 @@
 
     <string name="articles_name">Nama Artikel</string>
     <string name="description">Deskripsi</string>
-    <string name="list">List</string>
-    <string name="grid">Grid</string>
+    <string name="profil">Profil</string>
     <string-array name="data_name">
         <item>10 Tempat Wisata Terbaik di Dunia</item>
         <item>Cara Memulai Bisnis Online dari Nol</item>
@@ -30,15 +29,15 @@
         <item>Strategi praktis untuk mengatasi dan mengelola stres dalam kehidupan sehari-hari.</item>
     </string-array>
     <string-array name="data_photo">
-        <item>https://upload.wikimedia.org/wikipedia/commons/8/87/Ahmad_Dahlan.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahmad_Yani.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/e/ed/Bung_Tomo.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/b/be/Col_Gatot_Subroto%2C_Kenang-Kenangan_Pada_Panglima_Besar_Letnan_Djenderal_Soedirman%2C_p27.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/3/3a/Ki_Hadjar_Dewantara_Mimbar_Umum_18_October_1949_p2.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/VP_Hatta.jpg/330px-VP_Hatta.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sudirman.jpg/486px-Sudirman.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/330px-Presiden_Sukarno.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Supomo.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TanMalaka_DariPendjara_ed3.jpg/330px-TanMalaka_DariPendjara_ed3.jpg</item>
+        <item>https://digital-bucket.prod.bfi.co.id/assets/Blog/Blog%20New/Tempat%20wisata/Tempat%20Wisata%20di%20Indonesia%20Bali.jpg</item>
+        <item>https://info.populix.co/articles/wp-content/uploads/2022/09/Bisnis-adalah.webp</item>
+        <item>https://stikesbanyuwangi.ac.id/wp-content/uploads/2016/10/olahraga-lari-770x514.jpg</item>
+        <item>https://www.akun.biz/tips-bisnis/wp-content/uploads/2018/08/Being-Productive-640x450.jpg</item>
+        <item>https://cdns.klimg.com/merdeka.com/i/w/news/2018/08/18/1003601/content_images/670x335/20180818140942-1-cantik-alami-001-magang.jpg</item>
+        <item>https://heymondo.com/blog/wp-content/uploads/2023/08/Backpacking-trip.jpg</item>
+        <item>https://res.cloudinary.com/dk0z4ums3/image/upload/v1594622096/attached_image/ini-makanan-sehat-yang-perlu-dikonsumsi-setiap-hari.jpg</item>
+        <item>https://cloud.jpnn.com/photo/arsip/normal/2023/01/04/sebanyak-30-film-terbaik-tayang-di-klikfilm-sepanjang-januar-cokq.jpg</item>
+        <item>https://m.foolcdn.com/media/dubs/images/original_imagesoriginal_imageshttpsg.foolcdn.c.width-880_SfbkM9V.jpg</item>
+        <item>https://res.cloudinary.com/dk0z4ums3/image/upload/v1646902530/attached_image/stres.jpg</item>
     </string-array>
 </resources>

@@ -26,7 +26,7 @@ class ListArticleAdapter(private val listArticle: ArrayList<Article>) : Recycler
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (name, description, photo) = listArticle[position]
         Glide.with(holder.itemView.context)
-            .load(photo).circleCrop()
+            .load(photo)
             .into(holder.imgPhoto)
         holder.tvName.text = name
         holder.tvDescription.text = description

@@ -33,9 +33,20 @@ class MainActivity : AppCompatActivity() {
         return listHero
     }
 
+    private fun showSelectedArticle(hero: Article) {
+//        Perpindahan page main ke detail
+    }
+
+
     private fun showRecyclerList() {
         rvArticle.layoutManager = LinearLayoutManager(this)
         val listHeroAdapter = ListArticleAdapter(list)
         rvArticle.adapter = listHeroAdapter
+
+        listHeroAdapter.setOnItemClickCallback(object : ListArticleAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Article) {
+                showSelectedArticle(data)
+            }
+        })
     }
 }

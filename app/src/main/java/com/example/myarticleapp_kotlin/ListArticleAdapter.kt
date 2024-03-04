@@ -8,9 +8,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class ListArticleAdapter(private val listArticle: ArrayList<Article>) : RecyclerView.Adapter<ListArticleAdapter.ListViewHolder>(){
+class ListArticleAdapter(private val listArticle: ArrayList<Article>) : RecyclerView.Adapter<ListArticleAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallback: OnItemClickCallback
-    class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
+    inner class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
@@ -24,13 +25,13 @@ class ListArticleAdapter(private val listArticle: ArrayList<Article>) : Recycler
     override fun getItemCount(): Int = listArticle.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo) = listArticle[position]
+        val article = listArticle[position]
         Glide.with(holder.itemView.context)
-            .load(photo)
+            .load(article.photo)
             .into(holder.imgPhoto)
-        holder.tvName.text = name
-        holder.tvDescription.text = description
-        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listArticle[holder.adapterPosition]) }
+        holder.tvName.text = article.name
+        holder.tvDescription.text = article.description
+        holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(article) }
     }
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
@@ -38,6 +39,6 @@ class ListArticleAdapter(private val listArticle: ArrayList<Article>) : Recycler
     }
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: Article)
+        fun onItemClicked(article: Article)
     }
 }

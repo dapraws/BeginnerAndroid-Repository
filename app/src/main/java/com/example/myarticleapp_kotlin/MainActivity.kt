@@ -1,10 +1,10 @@
 package com.example.myarticleapp_kotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -27,17 +27,23 @@ class MainActivity : AppCompatActivity() {
     private fun getListArticles(): ArrayList<Article> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
+        val dataLongDescription = resources.getStringArray(R.array.data_longdescription)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
-        val listHero = ArrayList<Article>()
+        val listArticle = ArrayList<Article>()
         for (i in dataName.indices) {
-            val hero = Article(dataName[i], dataDescription[i], dataPhoto[i])
-            listHero.add(hero)
+            val artikel = Article(dataName[i], dataDescription[i], dataLongDescription[i], dataPhoto[i])
+            listArticle.add(artikel)
         }
-        return listHero
+        return listArticle
     }
 
-    private fun showSelectedArticle(hero: Article) {
-//        Perpindahan page main ke detail
+    private fun showSelectedArticle(article: Article) {
+        val intent = Intent(this, DetailArtikelActivity::class.java)
+        intent.putExtra("ARTICLE_NAME", article.name)
+        intent.putExtra("ARTICLE_DESCRIPTION", article.description)
+        intent.putExtra("ARTICLE_LONGDESCRIPTION", article.longDescription)
+        intent.putExtra("ARTICLE_PHOTO", article.photo)
+        startActivity(intent)
     }
 
 
@@ -53,5 +59,19 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_profil, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.menu_profil -> {
+                val intent = Intent(this, ProfilActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
 }

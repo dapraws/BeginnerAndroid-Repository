@@ -1,9 +1,14 @@
 <resources>
-    <string name="app_name">MyArticleApp_Kotlin</string>
+    <string name="app_name">MyArtikel App</string>
 
     <string name="articles_name">Nama Artikel</string>
     <string name="description">Deskripsi</string>
-    <string name="profil">Profil</string>
+    <string name="menu_profil">Profil</string>
+    <string name="nama">Muhammad Darrel Prawira</string>
+    <string name="email">darrelprawira26@gmail.com</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="github">GitHub</string>
+    <string name="Instagram">Instagram</string>
     <string-array name="data_name">
         <item>10 Tempat Wisata Terbaik di Dunia</item>
         <item>Cara Memulai Bisnis Online dari Nol</item>
@@ -15,6 +20,8 @@
         <item>10 Film Terbaik Sepanjang Masa yang Harus Anda Tonton</item>
         <item>Memahami Teknologi Blockchain dan Cryptocurrency</item>
         <item>Cara Mengatasi Stres dalam Kehidupan Sehari-hari</item>
+        <item>Pentingnya Pendidikan Karakter dalam Pembentukan Anak</item>
+        <item>Teknologi Terbaru di Bidang Kesehatan yang Mengubah Cara Kita Hidup</item>
     </string-array>
     <string-array name="data_description">
         <item>Artikel tentang destinasi wisata yang menakjubkan di berbagai belahan dunia.</item>
@@ -27,6 +34,74 @@
         <item>Daftar film yang dianggap sebagai karya terbaik dalam sejarah perfilman.</item>
         <item>Penjelasan tentang teknologi blockchain dan bagaimana cryptocurrency bekerja.</item>
         <item>Strategi praktis untuk mengatasi dan mengelola stres dalam kehidupan sehari-hari.</item>
+        <item>Artikel tentang pentingnya pendidikan karakter dalam pembentukan anak-anak yang berkualitas.</item>
+        <item>Informasi terbaru tentang teknologi medis yang mengubah cara kita menjalani kehidupan sehari-hari.</item>
+    </string-array>
+    <string-array name="data_longdescription">
+    <item><![CDATA[
+        <p>Destinasi wisata terbaik di dunia yang wajib Anda kunjungi setidaknya sekali seumur hidup. Artikel ini akan membawa Anda melintasi berbagai tempat indah dan menakjubkan di seluruh dunia.</p>
+        <p>Berlibur di destinasi populer seperti Paris, New York, atau Tokyo, atau menjelajahi tempat tersembunyi di antara pegunungan, hutan, dan pantai yang menakjubkan. Bersiaplah untuk petualangan tak terlupakan dan kenangan yang akan bertahan seumur hidup!</p>
+        <p>Selain itu, artikel ini juga memberikan tips perjalanan, saran penginapan, dan informasi berguna lainnya untuk membantu Anda merencanakan liburan impian Anda.</p>
+        <p>Siapkan kamera Anda dan bersiaplah untuk memulai petualangan Anda ke destinasi wisata terbaik di dunia!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Panduan langkah demi langkah untuk memulai bisnis online dari awal, termasuk tips praktis, strategi pemasaran, dan cara mengelola bisnis Anda dengan efektif.</p>
+        <p>Dengan semakin berkembangnya teknologi digital, semakin mudah bagi siapa pun untuk memulai bisnis online dari kenyamanan rumah mereka sendiri. Artikel ini akan membantu Anda memahami langkah-langkah yang diperlukan untuk memulai bisnis online yang sukses, mulai dari menemukan ide bisnis yang tepat hingga membangun merek Anda.</p>
+        <p>Berbagai topik dibahas, termasuk pemilihan niche pasar yang tepat, pembuatan situs web, strategi pemasaran online, dan cara mengelola bisnis Anda dengan efisien. Dengan panduan yang komprehensif ini, Anda akan siap untuk memulai perjalanan Anda sebagai seorang pengusaha online!</p>
+        <p>Siapkan diri Anda untuk menjadi bos Anda sendiri dan mulai membangun bisnis online Anda sekarang!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Penjelasan mendalam tentang manfaat olahraga bagi kesehatan mental, termasuk dampaknya pada suasana hati, stres, kecemasan, dan kesejahteraan emosional secara keseluruhan.</p>
+        <p>Olahraga tidak hanya memberikan manfaat fisik, tetapi juga berdampak positif pada kesehatan mental. Artikel ini akan menjelaskan secara rinci bagaimana aktivitas fisik seperti berjalan, berlari, atau berenang dapat meningkatkan suasana hati, mengurangi stres, dan meningkatkan kesejahteraan emosional secara keseluruhan.</p>
+        <p>Belum lagi manfaat olahraga dalam mengurangi risiko depresi, meningkatkan konsentrasi, dan meningkatkan kepercayaan diri. Dengan rutin berolahraga, Anda dapat mencapai keseimbangan yang lebih baik antara tubuh dan pikiran.</p>
+        <p>Jadi, jadwalkan waktu untuk berolahraga setiap hari dan rasakan manfaatnya bagi kesehatan mental Anda!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Strategi efektif untuk meningkatkan produktivitas di tempat kerja, termasuk tips manajemen waktu, prioritas, dan fokus untuk mencapai hasil yang optimal.</p>
+        <p>Produktivitas adalah kunci kesuksesan di tempat kerja, tetapi seringkali sulit untuk tetap fokus dan efisien dalam pekerjaan sehari-hari. Artikel ini akan memberikan strategi praktis untuk membantu Anda meningkatkan produktivitas Anda, mulai dari merencanakan hari Anda dengan bijak hingga mengelola gangguan dan menetapkan prioritas yang tepat.</p>
+        <p>Belum lagi tips manajemen waktu yang efektif, teknik konsentrasi, dan cara mengatasi prokrastinasi. Dengan menerapkan strategi ini, Anda akan dapat mencapai lebih banyak hal dalam waktu yang lebih sedikit dan mencapai hasil yang lebih optimal.</p>
+        <p>Jadi, mulailah menerapkan strategi produktivitas ini sekarang dan lihatlah bagaimana kinerja dan efisiensi Anda meningkat di tempat kerja!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Secrets behind the beauty routines of Korean celebrities, including skincare tips, makeup tricks, and diet secrets.</p>
+        <p>Korea Selatan dikenal dengan industri kecantikan yang maju dan inovatif, dengan banyaknya produk skincare dan makeup yang populer di seluruh dunia. Artikel ini akan membongkar rahasia kecantikan ala artis Korea, termasuk perawatan kulit yang harus Anda coba, trik makeup untuk tampilan yang sempurna, dan resep diet sehat yang dipraktikkan oleh artis Korea.</p>
+        <p>Dapatkan wawasan eksklusif tentang kebiasaan kecantikan dari artis Korea yang terkenal, dan mulailah merawat diri Anda seperti seorang bintang!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Cerita perjalanan inspiratif dan pengalaman unik saat menjelajahi Eropa sebagai backpacker, termasuk tips perjalanan, destinasi favorit, dan pengalaman budaya yang tak terlupakan.</p>
+        <p>Backpacking di Eropa adalah impian banyak pelancong, dan artikel ini akan membawa Anda dalam petualangan yang mengesankan. Temukan rute perjalanan yang menarik, panduan budaya untuk menghindari kebingungan, dan saran paket perjalanan untuk pengalaman yang tidak terlupakan.</p>
+        <p>Bersiaplah untuk menjelajahi kota-kota indah, menikmati makanan lezat, dan berkenalan dengan orang-orang baru saat Anda menjelajahi Eropa dengan ransel di punggung!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Resep makanan sehat dan lezat yang cocok untuk program diet Anda, dengan panduan gizi, saran menu, dan cara memasak yang mudah dan cepat.</p>
+        <p>Makanan sehat tidak perlu membosankan atau tidak enak. Dengan resep-resep kreatif dan lezat dalam artikel ini, Anda dapat menikmati makanan yang lezat dan memuaskan tanpa mengorbankan kesehatan Anda.</p>
+        <p>Dari sarapan sehat hingga makan malam ringan, artikel ini menyajikan berbagai pilihan makanan yang cocok untuk program diet Anda. Dapatkan inspirasi baru untuk memasak dan menjaga kesehatan tubuh Anda dengan hidangan-hidangan lezat ini!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Daftar film-film terbaik sepanjang masa yang wajib ditonton oleh pecinta film, dengan berbagai genre dan kisah yang menginspirasi.</p>
+        <p>Film-film legendaris telah mempengaruhi budaya populer dan menginspirasi jutaan penonton di seluruh dunia. Artikel ini memuat daftar film-film terbaik yang harus Anda tonton, dari drama epik hingga komedi klasik, dan segala sesuatu di antaranya.</p>
+        <p>Dari "The Godfather" hingga "The Shawshank Redemption", jangan lewatkan kesempatan untuk menonton karya-karya terbaik dari perfilman dunia!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Penjelasan lengkap tentang teknologi blockchain dan cryptocurrency, termasuk cara kerja, manfaat, dan potensi penggunaan di berbagai industri.</p>
+        <p>Blockchain dan cryptocurrency telah mengubah cara kita berinteraksi dengan uang dan teknologi. Artikel ini akan memberikan pemahaman mendalam tentang teknologi blockchain, bagaimana cryptocurrency bekerja, dan potensi penggunaannya di berbagai bidang, termasuk keuangan, logistik, dan keamanan data.</p>
+        <p>Dapatkan wawasan tentang tren terbaru dalam teknologi ini dan persiapkan diri Anda untuk era digital yang terus berkembang!</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Strategi praktis untuk mengatasi stres dalam kehidupan sehari-hari, termasuk latihan pernapasan, teknik relaksasi, dan cara mengelola tekanan dengan efektif.</p>
+        <p>Stres adalah bagian alami dari kehidupan, tetapi penting untuk belajar bagaimana mengelolanya dengan baik agar tidak mengganggu kesejahteraan fisik dan mental Anda. Artikel ini menyajikan strategi praktis untuk mengatasi stres sehari-hari, mulai dari latihan pernapasan sederhana hingga teknik meditasi yang mendalam.</p>
+        <p>Dengan menerapkan strategi ini, Anda akan dapat menangani tekanan dengan lebih baik, meningkatkan kesejahteraan Anda, dan hidup dengan lebih tenang dan bahagia.</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Pentingnya pendidikan karakter dalam pembentukan anak, termasuk nilai-nilai moral, kepemimpinan, dan etika yang diajarkan di sekolah dan di rumah.</p>
+        <p>Pendidikan tidak hanya tentang pengetahuan akademis, tetapi juga tentang pengembangan karakter dan nilai-nilai moral. Artikel ini menyoroti pentingnya pendidikan karakter dalam membentuk kepribadian anak-anak, termasuk nilai-nilai seperti integritas, empati, dan tanggung jawab.</p>
+        <p>Dengan memperkuat pendidikan karakter, kita dapat membantu anak-anak kita tumbuh menjadi individu yang bertanggung jawab, peduli, dan memiliki dampak positif pada masyarakat.</p>
+    ]]></item>
+        <item><![CDATA[
+        <p>Teknologi terbaru di bidang kesehatan yang mengubah cara kita hidup, termasuk aplikasi kesehatan, perangkat medis cerdas, dan terapi inovatif.</p>
+        <p>Kesehatan adalah kekayaan yang paling berharga, dan teknologi terus berkembang untuk membantu kita menjaga kesehatan dengan lebih baik. Artikel ini menjelaskan berbagai inovasi terbaru dalam teknologi kesehatan, mulai dari aplikasi yang memantau kesehatan Anda hingga perangkat medis cerdas yang mendeteksi penyakit dengan cepat dan akurat.</p>
+        <p>Dapatkan wawasan tentang tren terbaru dalam perawatan kesehatan dan persiapkan diri Anda untuk masa depan yang lebih sehat dan lebih cerah.</p>
+    ]]></item>
     </string-array>
     <string-array name="data_photo">
         <item>https://digital-bucket.prod.bfi.co.id/assets/Blog/Blog%20New/Tempat%20wisata/Tempat%20Wisata%20di%20Indonesia%20Bali.jpg</item>
@@ -39,5 +114,7 @@
         <item>https://cloud.jpnn.com/photo/arsip/normal/2023/01/04/sebanyak-30-film-terbaik-tayang-di-klikfilm-sepanjang-januar-cokq.jpg</item>
         <item>https://m.foolcdn.com/media/dubs/images/original_imagesoriginal_imageshttpsg.foolcdn.c.width-880_SfbkM9V.jpg</item>
         <item>https://res.cloudinary.com/dk0z4ums3/image/upload/v1646902530/attached_image/stres.jpg</item>
+        <item>https://cdn1-production-images-kly.akamaized.net/VMzd0Vc7WL38iUo6N7hMI4ivYMM=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3346274/original/031208500_1610369317-pexels-agung-pandit-wiguna-3401403.jpg</item>
+        <item>https://dinkes.tegalkota.go.id/asset/foto_berita/ai-di-dunia-kesehatan.jpg</item>
     </string-array>
 </resources>

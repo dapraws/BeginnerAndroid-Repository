@@ -9,6 +9,8 @@
     <string name="linkedin">LinkedIn</string>
     <string name="github">GitHub</string>
     <string name="instagram">Instagram</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
     <string-array name="data_name">
         <item>10 Tempat Wisata Terbaik di Dunia</item>
         <item>Cara Memulai Bisnis Online dari Nol</item>

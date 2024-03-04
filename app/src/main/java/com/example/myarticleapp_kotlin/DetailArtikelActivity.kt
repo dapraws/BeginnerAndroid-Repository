@@ -1,15 +1,21 @@
 package com.example.myarticleapp_kotlin
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.view.MenuItem
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.text.HtmlCompat
 import com.bumptech.glide.Glide
 
 class DetailArtikelActivity : AppCompatActivity() {
+
+    private var isLiked = false
+    private var isDisliked = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_artikel)
@@ -38,6 +44,32 @@ class DetailArtikelActivity : AppCompatActivity() {
                 true
             }
             else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+    fun toggleLike(view: View) {
+        val btnLike = findViewById<ImageView>(R.id.btn_like)
+        val btnDislike = findViewById<ImageView>(R.id.btn_dislike)
+        isLiked = !isLiked
+        if (isLiked) {
+            btnLike.setColorFilter(Color.BLUE)
+            btnDislike.clearColorFilter()
+            isDisliked = false
+        } else {
+            btnLike.clearColorFilter()
+        }
+    }
+
+    fun toggleDislike(view: View) {
+        val btnLike = findViewById<ImageView>(R.id.btn_like)
+        val btnDislike = findViewById<ImageView>(R.id.btn_dislike)
+        isDisliked = !isDisliked
+        if (isDisliked) {
+            btnDislike.setColorFilter(Color.RED)
+            btnLike.clearColorFilter()
+            isLiked = false
+        } else {
+            btnDislike.clearColorFilter()
         }
     }
 }
